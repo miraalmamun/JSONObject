@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="practice">
+  <test thread-count="5" name="Prac1">
+    <classes>
+      <class name="practice.Convert_Int_String"/>
+      <class name="practice.SecondTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Prac2">
+    <classes>
+      
+      <class name="practice.ITestContext_Test"/>
+      <class name="practice.FirstTest"/>
+      <class name="practice.DataProvider_Example2"/>
+      <class name="practice.DataProvider_Example"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

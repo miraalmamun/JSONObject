@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteB">
+  <test thread-count="5" name="Logout">
+    <classes>
+      <class name="suiteB.LogoutTest"/>
+      <class name="suiteB.LogoutTest2"/>
+      <class name="suiteB.LogoutTest3"/>
+    </classes>
+  </test> 
+</suite> 

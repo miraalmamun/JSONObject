@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteA]" parallel="tests">
+  <listeners>
+    <listener class-name="utils.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="suiteA.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- suiteA.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [SuiteA] -->
